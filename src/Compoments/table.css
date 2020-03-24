@@ -1,0 +1,26 @@
+
+tr > th {
+    background-color: #7993bd !important;
+}
+
+
+.element:hover {
+    font-size: 14px;
+    color: blue;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+
+.ant-modal-header {
+    border-bottom: 5px slateblue !important;
+    border-radius: 26px;
+}
+.ant-modal-content {
+    border-radius: 26px;
+    border:2px solid black;
+}
+
+button {
+    border-radius: 16px !important;
+}
