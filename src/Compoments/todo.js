@@ -188,7 +188,7 @@ const Todo = (props) => {
     return (
         <React.Fragment >
 
-            <h2>I Use here React Hooks 16.11</h2>
+            <h2>Here I Use Redux and React Hooks </h2>
             <Button type="primary" style={createButton} onClick={showModal}>
                 Create User
             </Button>
