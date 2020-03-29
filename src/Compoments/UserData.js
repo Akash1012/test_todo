@@ -76,7 +76,7 @@ const EditableTable = () => {
             }))
     }
 
-    const addItem = (name, email, number) => {
+    const addItem = (name) => {
         setIconLoading(true)
         setTimeout(() => {
             let l = name.length
@@ -99,8 +99,6 @@ const EditableTable = () => {
     const cancel = () => {
         setEditingKey("");
     };
-
-
 
     const showModal = () => {
         setVisible(true)

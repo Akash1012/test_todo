@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  Button } from 'antd';
+import { Button } from 'antd';
 
 
 class Loading extends Component {
@@ -12,7 +12,7 @@ class Loading extends Component {
             <Button type="primary" htmlType="submit"
                 style={{ 'marginTop': '20px' }}
                 loading={this.props.iconLoading}
-                onClick={this.props.addItem.bind(this, this.props.name, this.props.name, this.props.name)}>
+                onClick={this.props.addItem.bind(this, this.props.name)}>
                 Click To Add Name<br />
                 <br />
             </Button>
