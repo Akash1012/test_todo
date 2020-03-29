@@ -4,7 +4,7 @@ import './App.css';
 import 'antd/dist/antd.css';
 import { Tabs } from 'antd';
 import { Provider } from 'react-redux'
-import Todo from './Compoments/Todo'
+import Todo from './Compoments/todo'
 import store from './Redux/store'
 
 
